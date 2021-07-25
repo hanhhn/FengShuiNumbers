@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Copyright>Copyright © 2020 - Sai Gon Newport Corporation</Copyright>
+    <Product>Coffee.Libs.Service</Product>
+    <Company>Sai Gon Newport Corporation</Company>
+    <Authors>Sai Gon Newport Corporation</Authors>
+    <Version>3.1.8</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>SNP library</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Libs\Coffee.Libs.DataAccess\Coffee.Libs.DataAccess.csproj" />
+  </ItemGroup>
+
+</Project>

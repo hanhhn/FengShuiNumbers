@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Libs\Coffee.Libs.DataAccess.SqlServer\Coffee.Libs.DataAccess.SqlServer.csproj" />
+    <ProjectReference Include="..\Libs\Coffee.Libs.DataAccess\Coffee.Libs.DataAccess.csproj" />
+  </ItemGroup>
+
+</Project>

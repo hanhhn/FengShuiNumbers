@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Coffee.Libs.DataAccess.SqlServer.3.1.1.0.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Coffee.Libs.DataAccess.SqlServer.Fakes.ShimSqlServerEntityTypeConfiguration`1">
+            <summary>Shim type of Coffee.Libs.DataAccess.SqlServer.SqlServerEntityTypeConfiguration&lt;TEntity&gt;</summary>
+        </member>
+        <member name="M:Coffee.Libs.DataAccess.SqlServer.Fakes.ShimSqlServerEntityTypeConfiguration`1.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Coffee.Libs.DataAccess.SqlServer.Fakes.ShimSqlServerEntityTypeConfiguration`1.#ctor(Coffee.Libs.DataAccess.SqlServer.SqlServerEntityTypeConfiguration{`0})">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Coffee.Libs.DataAccess.SqlServer.Fakes.ShimSqlServerEntityTypeConfiguration`1.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Coffee.Libs.DataAccess.SqlServer.Fakes.ShimSqlServerEntityTypeConfiguration`1.AllInstances.ConfigureEntityTypeBuilderOfT0">
+            <summary>Sets the shim of SqlServerEntityTypeConfiguration`1.Configure(SqlServerEntityTypeConfiguration`1 this, EntityTypeBuilder`1 builder)</summary>
+        </member>
+        <member name="M:Coffee.Libs.DataAccess.SqlServer.Fakes.ShimSqlServerEntityTypeConfiguration`1.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Coffee.Libs.DataAccess.SqlServer.Fakes.ShimSqlServerEntityTypeConfiguration`1.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Coffee.Libs.DataAccess.SqlServer.Fakes.ShimSqlServerEntityTypeConfiguration`1.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Coffee.Libs.DataAccess.SqlServer.Fakes.ShimSqlServerEntityTypeConfiguration`1.Bind(Coffee.Libs.DataAccess.Mapping.IMappingConfiguration)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Coffee.Libs.DataAccess.SqlServer.Fakes.ShimSqlServerEntityTypeConfiguration`1.Bind(Microsoft.EntityFrameworkCore.IEntityTypeConfiguration{`0})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Coffee.Libs.DataAccess.SqlServer.Fakes.ShimSqlServerEntityTypeConfiguration`1.ConfigureEntityTypeBuilderOfT0">
+            <summary>Sets the shim of SqlServerEntityTypeConfiguration`1.Configure(SqlServerEntityTypeConfiguration`1 this, EntityTypeBuilder`1 builder)</summary>
+        </member>
+        <member name="P:Coffee.Libs.DataAccess.SqlServer.Fakes.ShimSqlServerEntityTypeConfiguration`1.Constructor">
+            <summary>Sets the shim of SqlServerEntityTypeConfiguration`1.SqlServerEntityTypeConfiguration`1(SqlServerEntityTypeConfiguration`1 this)</summary>
+        </member>
+        <member name="T:Coffee.Libs.DataAccess.SqlServer.Fakes.StubSqlServerEntityTypeConfiguration`1">
+            <summary>Stub type of Coffee.Libs.DataAccess.SqlServer.SqlServerEntityTypeConfiguration&lt;TEntity&gt;</summary>
+        </member>
+        <member name="M:Coffee.Libs.DataAccess.SqlServer.Fakes.StubSqlServerEntityTypeConfiguration`1.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Coffee.Libs.DataAccess.SqlServer.Fakes.StubSqlServerEntityTypeConfiguration`1.ApplyConfiguration(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <summary>Sets the stub of EntityTypeConfiguration`1.ApplyConfiguration(EntityTypeConfiguration`1 this, ModelBuilder modelBuilder)</summary>
+        </member>
+        <member name="F:Coffee.Libs.DataAccess.SqlServer.Fakes.StubSqlServerEntityTypeConfiguration`1.ApplyConfigurationModelBuilder">
+            <summary>Sets the stub of EntityTypeConfiguration`1.ApplyConfiguration(EntityTypeConfiguration`1 this, ModelBuilder modelBuilder)</summary>
+        </member>
+        <member name="P:Coffee.Libs.DataAccess.SqlServer.Fakes.StubSqlServerEntityTypeConfiguration`1.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Coffee.Libs.DataAccess.SqlServer.Fakes.StubSqlServerEntityTypeConfiguration`1.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder{`0})">
+            <summary>Sets the stub of SqlServerEntityTypeConfiguration`1.Configure(SqlServerEntityTypeConfiguration`1 this, EntityTypeBuilder`1 builder)</summary>
+        </member>
+        <member name="F:Coffee.Libs.DataAccess.SqlServer.Fakes.StubSqlServerEntityTypeConfiguration`1.ConfigureEntityTypeBuilderOfT0">
+            <summary>Sets the stub of SqlServerEntityTypeConfiguration`1.Configure(SqlServerEntityTypeConfiguration`1 this, EntityTypeBuilder`1 builder)</summary>
+        </member>
+        <member name="M:Coffee.Libs.DataAccess.SqlServer.Fakes.StubSqlServerEntityTypeConfiguration`1.InitializeStub">
+            <summary>Initializes a new instance of type StubSqlServerEntityTypeConfiguration</summary>
+        </member>
+        <member name="P:Coffee.Libs.DataAccess.SqlServer.Fakes.StubSqlServerEntityTypeConfiguration`1.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Coffee.Libs.DataAccess.SqlServer.Fakes.StubSqlServerEntityTypeConfiguration`1.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>

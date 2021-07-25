@@ -1,0 +1,2 @@
+C:\Users\hanhhn\source\repos\FengShuiNumbers\src\FengShuiNumbers\Fakes\Coffee.Libs.DataAccess.SqlServer.fakes : warning : Cannot generate stub for Coffee.Libs.DataAccess.SqlServer.RefitInternalGenerated.PreserveAttribute: type is sealed.
+C:\Users\hanhhn\source\repos\FengShuiNumbers\src\FengShuiNumbers\Fakes\Coffee.Libs.DataAccess.SqlServer.fakes : warning : Cannot generate shim for Coffee.Libs.DataAccess.SqlServer.RefitInternalGenerated.PreserveAttribute: type is not visible to exported or assembly(Coffee.Libs.DataAccess.SqlServer.3.1.1.0.Fakes).
